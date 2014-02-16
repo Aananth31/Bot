@@ -11,8 +11,8 @@ exports.commands = {
 	/**
 	 * It is recommended that you keep the following functions
 	 */
-	about: function(arg, by, room, con) {
-		var text = '**Pokémon Showdown Bot** by: Quinella';
+	rp: function(arg, by, room, con) {
+		var text = 'roleplaying.psim.us';
 		this.say(con, room, text);
 	},
 	reload: function(arg, by) {
