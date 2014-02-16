@@ -4,7 +4,7 @@
 // If you really don't know how to do this... Run `node getserver.js URL`.
 // Fill in the URL of the client where `URL` is.
 // For example: `node getserver.js http://example-server.psim.us/`
-exports.server = 'breeze.no-ip.biz';
+exports.server = 'sim.smogon.com';
 exports.port = 8000;
 
 // This is the server id.
@@ -17,18 +17,18 @@ exports.serverid = 'breeze';
 
 // The nick and password to log in with
 // If no password is required, leave pass empty
-exports.nick = 'BreezeBot';
+exports.nick = 'RPBot';
 exports.pass = '';
 
 // The rooms that should be joined.
 // Joining Smogon's Showdown's Lobby is not allowed.
-exports.rooms = ['lobby'];
+exports.rooms = ['roleplaying'];
 
 // The character text should start with to be seen as a command.
 // Note that using / and ! might be 'dangerous' since these are used in
 // Showdown itself.
 // Using only alphanumeric characters and spaces is not allowed.
-exports.commandcharacter = '?';
+exports.commandcharacter = '.';
 
 // Whether this file should be watched for changes or not.
 // If you change this option, the server has to be restarted in order for it to
