@@ -12,7 +12,7 @@ exports.commands = {
 	 * It is recommended that you keep the following functions
 	 */
 	rp: function(arg, by, room, con) {
-		var text = 'roleplaying.psim.us';
+		var text = 'Come to the breeze server --> breeze.psim.us';
 		this.say(con, room, text);
 	},
 	reload: function(arg, by) {
