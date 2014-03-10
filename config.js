@@ -13,16 +13,16 @@ exports.port = 8000;
 // For example, on the Smogon server, it will say somewhere in the URL
 // ~~showdown, meaning that the server id is 'showdown'.
 // If you really don't know how to check this... run the said script above.
-exports.serverid = 'breeze';
+exports.serverid = 'Showdown';
 
 // The nick and password to log in with
 // If no password is required, leave pass empty
-exports.nick = 'RPBot';
+exports.nick = 'Master Of You All';
 exports.pass = '';
 
 // The rooms that should be joined.
 // Joining Smogon's Showdown's Lobby is not allowed.
-exports.rooms = ['roleplaying'];
+exports.rooms = ['lobby'];
 
 // The character text should start with to be seen as a command.
 // Note that using / and ! might be 'dangerous' since these are used in
